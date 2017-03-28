@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: MinimumTexture
-  m_Shader: {fileID: 4800000, guid: 7e2f27c524d67994eaea635348f9f046, type: 3}
+  m_Name: ScrollByTime
+  m_Shader: {fileID: 4800000, guid: 1bcdbd6ebb84f7d4daf84e29122ef9bb, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
@@ -104,10 +104,22 @@ Material:
         name: _Parallax
       second: 0.02
     - first:
+        name: _ScrollSpeedU
+      second: 1
+    - first:
+        name: _ScrollSpeedV
+      second: 1
+    - first:
         name: _SmoothnessTextureChannel
       second: 0
     - first:
         name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SpeedU
+      second: 1
+    - first:
+        name: _SpeedV
       second: 1
     - first:
         name: _SrcBlend
@@ -125,3 +137,6 @@ Material:
     - first:
         name: _EmissionColor
       second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _Hoge
+      second: {r: 1, g: 1, b: 1, a: 1}
